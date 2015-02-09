@@ -1,2 +1,8 @@
 general:
   build_dir: test
+machine:
+  ruby:
+    version: 2.1.5
+test:
+  minitest_globgs:
+    - test/**/*.rb
