@@ -4,5 +4,5 @@ machine:
   ruby:
     version: 2.1.5
 test:
-  minitest_globgs:
+  minitest_globs:
     - test/**/*.rb
