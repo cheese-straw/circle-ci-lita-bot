@@ -2,5 +2,7 @@ machine:
   ruby:
     version: 2.1.5
 test:
+  override:
+    - ruby -Ilib:test test/*
   minitest_globs:
     - test/**/*.rb
